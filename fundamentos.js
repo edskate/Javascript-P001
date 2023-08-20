@@ -67,3 +67,22 @@ console.log(10 < 5  && 20 <5);
 console.log(10 > 5 || 20 > 5);
 console.log(10 > 5 || 20 < 5);
 console.log(10 < 5 || 20 < 5);
+
+// Conversão de tipos 
+
+const meuNumero2 = "123"
+
+const meuNumeroConvertido = Number(meuNumero2);
+
+console.log(meuNumero);
+console.log(typeof meuNumeroConvertido);
+
+// Estrutura de condição - - if, else, else if 
+
+const idade = 20;
+
+if (idade < 16) {
+    console.log("Criança");
+} else {
+    console.log("Adulto");
+}
